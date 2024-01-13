@@ -1,1 +1,1 @@
-<h1>Lota Lab</h1>
+<h1>Lota Lab: DevOps Stack Memoir</h1>
