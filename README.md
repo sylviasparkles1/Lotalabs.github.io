@@ -58,7 +58,7 @@
 * It is important to note that there may be errors when trying to create a deployment.
 * "Kind" is case sensitive and the description should start with an upper case.
 - to edit a deployment file for instance , run " vi deployment file"
-<h3>The help CLI</h3>
+<h3>The --help CLI</h3>
 *To Create a new Deployment with attributes using your own deployment definition file.
 *RUN "kubectl create deployment --help". This shows what cli to run when specific attributes are required.
 *For instance Create a new Deployment with the below attributes using your own deployment definition file.Name: httpd-frontend; Replicas: 3; Image: httpd:2.4-alpine.
