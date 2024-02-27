@@ -34,7 +34,7 @@
 *NB Nginx is used to set up a proxy-server, it receives a request, passes it to the proxied server, retrieves responses from them and sends them to the client.
 <h2>Deployments</h2>
 -This talks about how we deploy our application in a production environment.
--Deployment gives the capability to to upgrade the underlying instances (pods) seamlessly using rolling updates, undo changes, pauses and resume changes as required.
+-Deployment gives the capability to upgrade the underlying instances (pods) seamlessly using rolling updates, undo changes, pauses and resume changes as required.
 -How do we create a deployment ?
 * We draw same information in the file of the replicaset ie. the manifest. In this case the "kind will be deployment" 
 * Run "kubectl create -f deployment-definition.yml"
