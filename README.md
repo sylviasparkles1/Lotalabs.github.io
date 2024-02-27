@@ -1,4 +1,4 @@
-<h1>Lota Lab: DevOps Stack Memoir</h1>
+<h1>DevOps Memoir</h1>
 
 <h2>Kubernetes</h2>
 <h2>Cluster Architecture</h2>
