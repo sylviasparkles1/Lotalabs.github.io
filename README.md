@@ -29,6 +29,6 @@
 - Is the smallest object you can create in K8S.
 - In a pod, we also have helper containers (Replication containers, Replicasets) that is a copy of the original container just in caseit fails, now k8s helps to run these containers just in case it fails.
 - K8s helps to run these containers/apps and groups them according to their use.
-* When upscaling a pod, we do not ib=ncrease the number of containers but increase the pods.
+* When upscaling a pod, we do not increase the number of containers but increase the pods.
 * When downsizing, we remove pods that are no longee required and not a container itself. 
 *NB Nginx is used to set up a proxy-server, it receives a request, passes it to the proxied server, retrieves responses from them and sends them to the client.
