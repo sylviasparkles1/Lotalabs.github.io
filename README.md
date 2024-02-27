@@ -54,3 +54,7 @@
 *OR
 *In k8s version 1.19+, we can specify the –replicas option to create a deployment with 4 replicas.
 *kubectl create deployment --image=nginx nginx --replicas=4 --dry-run=client -o yaml > nginx-deployment.yaml
+<h3>Common errors</h3>
+* It is important to note that there may be errors when trying to create a deployment.
+* "Kind" is case sensitive and the description should start with an upper case.
+- to edit a deployment file for instance , run " vi deployment file"
