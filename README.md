@@ -61,5 +61,5 @@
 <h3>The --help CLI</h3>
 *To Create a new Deployment with attributes using your own deployment definition file.
 *RUN "kubectl create deployment --help". This shows what cli to run when specific attributes are required.
-*For instance Create a new Deployment with the below attributes using your own deployment definition file.Name: httpd-frontend; Replicas: 3; Image: httpd:2.4-alpine.
+*For instance Create a new Deployment with the below attributes using your own deployment definition file. Name: httpd-frontend; Replicas: 3; Image: httpd:2.4-alpine.
 *Run kubectl create deployment httpd-frontend --image=httpd:2.4-alpine --replicas=3
