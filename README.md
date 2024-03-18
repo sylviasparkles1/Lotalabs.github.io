@@ -67,9 +67,9 @@
 -Enables communication between users, and also the front end and back end, connectivity to the datasource, hence the loose coupling methodology. It is also an object.
 *The set-up: Is to be able to listen directly to the pods in the nodes and obtain direct information from them by the end user.
 <h3>Service types</h3>
--Node Port: ports(service,target,node)* link the service-definition file with the pod-definition file/* curl cli* exchanges data
--Cluster IP
--Load Balancer
+-1. Node Port: ports(service,target,node)* link the service-definition file with the pod-definition file/* curl cli* exchanges data
+-2. Cluster IP
+-3. Load Balancer
 <h4>Node port</h4>
 In Summary, in any case whether it be a single pod on a single node,multiple pods on a single node or multiple pods on multiple nodes,the service is created exactly the same any further steps taken. When pods are removed or added, the service is automatically updated making it highly adaptive and flexible.
 <h4>Services Cluster IP</h4>
