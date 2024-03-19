@@ -73,3 +73,9 @@
 <h4>Node port</h4>
 In Summary, in any case whether it be a single pod on a single node,multiple pods on a single node or multiple pods on multiple nodes,the service is created exactly the same any further steps taken. When pods are removed or added, the service is automatically updated making it highly adaptive and flexible.
 <h4>Services Cluster IP</h4>
+Afull stack webapplication has different types of ports hosting different applications  viz ports running front-end, back-end, key-value store like redis or a persistent database like MYSQL
+*So, the front-end store has to communicate with the back end and the back-end with the database store or the key-value store and so on. The Ip addresses are not static and unreliable, the kube-service helps group ports in the a particular store into one and communicates that to the next store so that the microservice that operate smoothly.
+*First create a sercice definition file "service-definition.yml" and link with the pod-definition.yml file.
+<h4>Load Balancer</h4>
+Assuming we have 4 nodes: 2 voting-app nodes and 2 result-app nodes and they all have 4 different IP addresses?, which IP address will the end user use to access information? We do not wnat a situation whereby the user uses different addresses to access the same info/app.
+*This is where the services-loadbalancer comes in. Other cloud platforms like GCP,AWS,Azure, have their innate balancers. So for unsupported platforms like Virtual box, we have to edit the Spec type in the service-definition file to Load-balancer. This will be discussed more subsequently.
