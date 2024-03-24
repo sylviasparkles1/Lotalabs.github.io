@@ -2,6 +2,7 @@
 
 <h2>Kubernetes</h2>
 * [03-21-2024-Gathering-new-facts](K8S/03-21-2024-Gathering-new-facts.md)
+* [2024-03-24-services](K8S/2024-03-24-services.md)
 
 <h2>Cluster Architecture</h2>
 *Worker nodes: includes the kubelet and kube-proxy which are the container runtime engine ie. run containers Eg. Docker, rkt, containerD etc 
