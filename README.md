@@ -1,6 +1,8 @@
 <h1>DevOps Memoir</h1>
 
 <h2>Kubernetes</h2>
+* [03-21-2024-Gathering-new-facts](K8S/03-21-2024-Gathering-new-facts.md)
+
 <h2>Cluster Architecture</h2>
 *Worker nodes: includes the kubelet and kube-proxy which are the container runtime engine ie. run containers Eg. Docker, rkt, containerD etc 
 *Master nodes: includes the ETCD cluster, Kube Api-server, Kube controllee Manager and Kube scheduler
