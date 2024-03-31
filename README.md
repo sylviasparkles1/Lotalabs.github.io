@@ -1,7 +1,7 @@
 <h1>DevOps Memoir</h1>
 
 <h2>Kubernetes</h2>
-* [03-21-2024-Gathering-new-facts](K8S/03-21-2024-Gathering-new-facts.md)
+* [Namespaces.md](K8S/Namespaces.md)
 * [2024-03-24-services](K8S/2024-03-24-services.md)
 
 <h2>Cluster Architecture</h2>
@@ -81,4 +81,4 @@
 2. Cluster IP
 3. Load Balancer
 
-* This is where the services-loadbalancer comes in. Other cloud platforms like GCP,AWS,Azure, have their innate balancers. So for unsupported platforms like Virtual box, we have to edit the Spec type in the service-definition file to Load-balancer. This will be discussed more subsequently.
+* This is where the siervices-loadbalancer comes in. Other cloud platforms like GCP,AWS,Azure, have their innate balancers. So for unsupported platforms like Virtual box, we have to edit the Spec type in the service-definition file to Load-balancer. This will be discussed more subsequently.
