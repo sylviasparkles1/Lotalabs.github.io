@@ -1,7 +1,7 @@
 <h1>DevOps Memoir</h1>
 
 <h2>Kubernetes</h2>
-* [Namespaces.md](K8S/Namespaces.md)
+* [Namespaces](K8S/Namespaces.md)
 * [2024-03-24-services](K8S/2024-03-24-services.md)
 
 <h2>Cluster Architecture</h2>
